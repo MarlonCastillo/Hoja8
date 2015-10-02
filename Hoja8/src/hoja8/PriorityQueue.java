@@ -1,3 +1,11 @@
+/*----------------------------------------------------------------------------------
+Algoritmos y estructura de datos
+Seccion 30
+
+Autor:
+Marlon Josue Castillo Martinez      14427
+Hoja 8
+-----------------------------------------------------------------------------------*/
 public interface PriorityQueue<E extends Comparable<E>>
 {
 	public E getFirst();

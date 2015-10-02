@@ -1,4 +1,10 @@
 /*----------------------------------------------------------------------------------
+Algoritmos y estructura de datos
+Seccion 30
+
+Autor:
+Marlon Josue Castillo Martinez      14427
+Hoja 8
 -----------------------------------------------------------------------------------*/
 
 import java.util.Vector;
@@ -101,11 +107,11 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>
 			}
 		}
 	}
-
+        //return first element
 	public E getFirst()
-    {
+        {
 	return data.get(0);
-    }
+        }   
 
 	public E remove()
 	// pre: !isEmpty()
