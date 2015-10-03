@@ -8,12 +8,22 @@ import static org.junit.Assert.*;
  */
 public class VectorHeapTest {
     
+    /**
+     *
+     */
     public VectorHeapTest() {
     }
     
+    /**
+     *
+     */
     @Before
     public void setUp() {
     }
+
+    /**
+     *
+     */
     @Test
     public void addTest(){
         Paciente paciente1 = new Paciente("marlon","dolor","A");
@@ -25,6 +35,9 @@ public class VectorHeapTest {
         cola.add(paciente3);
     }
     
+    /**
+     *
+     */
     @Test
     public void removeTest(){
         Paciente paciente1 = new Paciente("marlon","dolor","A");

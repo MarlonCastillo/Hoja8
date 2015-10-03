@@ -13,7 +13,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.FileNotFoundException;
 
+/**
+ *
+ * @author Marlon
+ */
 public class main {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         //variables para almacenar los atributos de los pacientes
         String nombre="";
